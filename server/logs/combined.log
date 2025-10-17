@@ -1,0 +1,4 @@
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-17T16:58:51.742Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-17T16:58:51.749Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-17T17:05:02.149Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-17T17:05:02.664Z"}
