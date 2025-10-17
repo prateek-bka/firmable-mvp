@@ -11,11 +11,14 @@ export default defineConfig([
     languageOptions: {
       globals: {
         ...globals.node,
-        ...globals.browser
-      }
+        ...globals.browser,
+      },
     },
     rules: {
-      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }]
-    }
-  }
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+      ],
+    },
+  },
 ]);
