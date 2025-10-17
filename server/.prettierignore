@@ -1,0 +1,18 @@
+# Ignore artifacts:
+
+build
+coverage
+  
+cypress
+
+public
+
+tailwind.config.js
+vite.config.js
+.eslintrc.json
+.gitlab-ci.yml
+cypress.config.js
+cypress.env.json
+index.html
+postcss.config.js
+README.md
