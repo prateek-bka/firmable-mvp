@@ -1,6 +1,6 @@
 import type { NextFunction, Request, Response } from "express";
 import createHttpError from "http-errors";
-import { abnModel } from "../../models/abnModel.js";
+import { abnModel } from "../../models/abn/abnModel.js";
 import { recordsLimit } from "../../constants/abnRecordsConstants.js";
 
 // Get all filter options
