@@ -1,4 +1,35 @@
-{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-17T16:58:51.742Z"}
-{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-17T16:58:51.749Z"}
-{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-17T17:05:02.149Z"}
 {"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-17T17:05:02.664Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-17T17:17:52.465Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-17T17:17:52.910Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-17T17:18:34.926Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-17T17:18:35.375Z"}
+{"level":"info","message":"Reading XML file (first 50MB only)...","serviceName":"backend","timestamp":"2025-10-17T17:18:35.376Z"}
+{"level":"info","message":"File: C:\\Users\\PC\\Music\\firmable-mvp\\server\\assets\\public\\20251015_Public01.xml","serviceName":"backend","timestamp":"2025-10-17T17:18:35.377Z"}
+{"level":"info","message":"File read successfully (50MB)","serviceName":"backend","timestamp":"2025-10-17T17:18:35.433Z"}
+{"level":"info","message":"Parsing XML...","serviceName":"backend","timestamp":"2025-10-17T17:18:35.434Z"}
+{"level":"info","message":"XML parsed successfully","serviceName":"backend","timestamp":"2025-10-17T17:18:38.901Z"}
+{"level":"info","message":"Found 82650 records in file","serviceName":"backend","timestamp":"2025-10-17T17:18:38.901Z"}
+{"level":"info","message":"Importing first 10000 records...","serviceName":"backend","timestamp":"2025-10-17T17:18:38.902Z"}
+{"level":"info","message":"Imported 500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:39.546Z"}
+{"level":"info","message":"Imported 1000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:39.777Z"}
+{"level":"info","message":"Imported 1500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:39.971Z"}
+{"level":"info","message":"Imported 2000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:40.143Z"}
+{"level":"info","message":"Imported 2500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:40.310Z"}
+{"level":"info","message":"Imported 3000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:40.481Z"}
+{"level":"info","message":"Imported 3500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:40.657Z"}
+{"level":"info","message":"Imported 4000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:40.836Z"}
+{"level":"info","message":"Imported 4500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.010Z"}
+{"level":"info","message":"Imported 5000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.175Z"}
+{"level":"info","message":"Imported 5500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.322Z"}
+{"level":"info","message":"Imported 6000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.480Z"}
+{"level":"info","message":"Imported 6500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.639Z"}
+{"level":"info","message":"Imported 7000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.797Z"}
+{"level":"info","message":"Imported 7500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:41.958Z"}
+{"level":"info","message":"Imported 8000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:42.118Z"}
+{"level":"info","message":"Imported 8500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:42.279Z"}
+{"level":"info","message":"Imported 9000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:42.471Z"}
+{"level":"info","message":"Imported 9500/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:42.635Z"}
+{"level":"info","message":"Imported 10000/10000 records","serviceName":"backend","timestamp":"2025-10-17T17:18:42.795Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-18T07:34:37.594Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T07:34:37.600Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T08:18:46.118Z"}

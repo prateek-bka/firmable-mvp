@@ -1,4 +1,4 @@
-import { AbnRecord } from "../../../models/AbnRecord.js";
+import { AbnRecord } from "../../../models/abnModel.js";
 import logger from "../../../config/logger.js";
 import { BATCH_SIZE, MAX_RECORDS } from "../../../constants/dataIngestionConstants.js";
 import { extractBusinessData } from "../extractors/businessDataExtractor.js";
