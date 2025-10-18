@@ -2,7 +2,10 @@ import fs from "fs";
 import { createReadStream } from "fs";
 import { XMLParser } from "fast-xml-parser";
 import logger from "../../../config/logger.js";
-import { MAX_FILE_SIZE, XML_FILE_PATH } from "../../../constants/dataIngestionConstants.js";
+import {
+  MAX_FILE_SIZE,
+  XML_FILE_PATH,
+} from "../../../constants/dataIngestionConstants.js";
 
 // Read and parse XML file - first portion for 10k records
 export async function readXmlFile() {
@@ -11,16 +14,15 @@ export async function readXmlFile() {
       logger.info("Reading XML file (first 50MB only)...");
       logger.info(`File: ${XML_FILE_PATH}`);
 
-
       if (!fs.existsSync(XML_FILE_PATH)) {
         throw new Error(`File not found: ${XML_FILE_PATH}`);
       }
 
-      let xmlChunks: string[] = [];
+      const xmlChunks: string[] = [];
       let bytesRead = 0;
       const stream = createReadStream(XML_FILE_PATH, {
         encoding: "utf-8",
-        highWaterMark: 1024 * 1024 // Read 1MB at a time
+        highWaterMark: 1024 * 1024, // Read 1MB at a time
       });
 
       stream.on("data", (chunk: string) => {
@@ -34,7 +36,9 @@ export async function readXmlFile() {
       });
 
       stream.on("close", () => {
-        logger.info(`File read successfully (${Math.round(bytesRead / 1024 / 1024)}MB)`);
+        logger.info(
+          `File read successfully (${Math.round(bytesRead / 1024 / 1024)}MB)`,
+        );
 
         try {
           // Parse XML
@@ -46,7 +50,8 @@ export async function readXmlFile() {
             // Find last complete </ABR> tag
             const lastAbrIndex = xmlContent.lastIndexOf("</ABR>");
             if (lastAbrIndex !== -1) {
-              xmlContent = xmlContent.substring(0, lastAbrIndex + 6) + "\n</Transfer>";
+              xmlContent =
+                xmlContent.substring(0, lastAbrIndex + 6) + "\n</Transfer>";
             }
           }
 
@@ -75,4 +80,3 @@ export async function readXmlFile() {
     }
   });
 }
-

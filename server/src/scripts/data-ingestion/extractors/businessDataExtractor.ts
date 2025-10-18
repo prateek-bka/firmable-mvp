@@ -11,27 +11,30 @@ export function extractBusinessData(abr: any) {
   // Entity type
   const entityType = abr.EntityType
     ? {
-      code: abr.EntityType.EntityTypeInd,
-      text: abr.EntityType.EntityTypeText,
-    }
+        code: abr.EntityType.EntityTypeInd,
+        text: abr.EntityType.EntityTypeText,
+      }
     : undefined;
 
   // Main business name
-  const mainName = abr.MainEntity?.NonIndividualName?.NonIndividualNameText || "";
+  const mainName =
+    abr.MainEntity?.NonIndividualName?.NonIndividualNameText || "";
 
   // Business address
   const addressDetails = abr.MainEntity?.BusinessAddress?.AddressDetails;
   const businessAddress = addressDetails
     ? {
-      state: addressDetails.State,
-      postcode: addressDetails.Postcode,
-    }
+        state: addressDetails.State,
+        postcode: addressDetails.Postcode,
+      }
     : undefined;
 
   // GST info
   const gstData = abr.GST;
   const gstStatus = gstData ? gstData["@_status"] : undefined;
-  const gstStatusFromDate = gstData ? parseDate(gstData["@_GSTStatusFromDate"]) : null;
+  const gstStatusFromDate = gstData
+    ? parseDate(gstData["@_GSTStatusFromDate"])
+    : null;
 
   // Other names (trading names, business names, etc.)
   const tradingNames: string[] = [];
@@ -39,7 +42,9 @@ export function extractBusinessData(abr: any) {
   const otherNames: string[] = [];
 
   if (abr.OtherEntity) {
-    const entities = Array.isArray(abr.OtherEntity) ? abr.OtherEntity : [abr.OtherEntity];
+    const entities = Array.isArray(abr.OtherEntity)
+      ? abr.OtherEntity
+      : [abr.OtherEntity];
     entities.forEach((entity: any) => {
       const name = entity.NonIndividualName?.NonIndividualNameText;
       const type = entity.NonIndividualName?.["@_type"];
@@ -72,4 +77,3 @@ export function extractBusinessData(abr: any) {
     replaced,
   };
 }
-

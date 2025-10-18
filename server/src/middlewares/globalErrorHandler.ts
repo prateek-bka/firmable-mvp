@@ -4,7 +4,12 @@ import { config } from "../config/config.js";
 import logger from "../config/logger.js";
 import { v4 as uuidv4 } from "uuid";
 
-const globalErrorHandler = (err: HttpError, req: Request, res: Response, _next: NextFunction) => {
+const globalErrorHandler = (
+  err: HttpError,
+  req: Request,
+  res: Response,
+  _next: NextFunction,
+) => {
   const statusCode = err.statusCode || 500;
   const errorId = uuidv4();
 
@@ -15,13 +20,13 @@ const globalErrorHandler = (err: HttpError, req: Request, res: Response, _next: 
     stack: err.stack,
     method: req.method,
     url: req.originalUrl,
-    ip: req.ip
+    ip: req.ip,
   });
 
   return res.status(statusCode).json({
     message: err.message,
     errorId,
-    errorStack: config.env === "development" ? err.stack : undefined
+    errorStack: config.env === "development" ? err.stack : undefined,
   });
 };
 

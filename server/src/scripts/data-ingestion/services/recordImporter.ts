@@ -1,6 +1,9 @@
-import { AbnRecord } from "../../../models/abnModel.js";
+import { abnModel } from "../../../models/abnModel.js";
 import logger from "../../../config/logger.js";
-import { BATCH_SIZE, MAX_RECORDS } from "../../../constants/dataIngestionConstants.js";
+import {
+  BATCH_SIZE,
+  MAX_RECORDS,
+} from "../../../constants/dataIngestionConstants.js";
 import { extractBusinessData } from "../extractors/businessDataExtractor.js";
 
 // Import records to MongoDB
@@ -33,7 +36,7 @@ export async function importRecords(xmlData: any) {
 
         // Insert batch when it reaches BATCH_SIZE
         if (batch.length >= BATCH_SIZE) {
-          await AbnRecord.insertMany(batch, { ordered: false });
+          await abnModel.insertMany(batch, { ordered: false });
           imported += batch.length;
           logger.info(`Imported ${imported}/${totalRecords} records`);
           batch = []; // Clear batch
@@ -51,7 +54,7 @@ export async function importRecords(xmlData: any) {
     // Insert remaining records
     if (batch.length > 0) {
       try {
-        await AbnRecord.insertMany(batch, { ordered: false });
+        await abnModel.insertMany(batch, { ordered: false });
         imported += batch.length;
       } catch (error: any) {
         // Handle any remaining duplicates
@@ -72,4 +75,3 @@ export async function importRecords(xmlData: any) {
     throw error;
   }
 }
-

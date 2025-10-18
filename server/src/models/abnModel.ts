@@ -51,7 +51,7 @@ const abnRecordSchema = new Schema<AbnRecordDocument>(
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 // Indexes
@@ -62,4 +62,7 @@ abnRecordSchema.index({ "businessAddress.state": 1 });
 // Pagination
 abnRecordSchema.plugin(mongoosePaginate);
 
-export const abnModel = model<AbnRecordDocument, PaginateModel>("AbnRecord", abnRecordSchema);
+export const abnModel = model<AbnRecordDocument, PaginateModel>(
+  "AbnRecord",
+  abnRecordSchema,
+);

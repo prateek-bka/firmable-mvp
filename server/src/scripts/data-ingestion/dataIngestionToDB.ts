@@ -10,7 +10,7 @@ async function main() {
 
   try {
     // Connect to database
-    await connectDB()
+    await connectDB();
 
     // Read and parse XML file
     const xmlData = await readXmlFile();
@@ -31,4 +31,3 @@ async function main() {
 
 // Run the script
 main();
-

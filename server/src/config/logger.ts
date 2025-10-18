@@ -9,15 +9,23 @@ const logger = winston.createLogger({
       dirname: "logs",
       filename: "combined.log",
       level: "info",
-      format: winston.format.combine(winston.format.errors({ stack: true }), winston.format.timestamp(), winston.format.json()),
-      silent: config.NODE_ENV === "test"
+      format: winston.format.combine(
+        winston.format.errors({ stack: true }),
+        winston.format.timestamp(),
+        winston.format.json(),
+      ),
+      silent: config.NODE_ENV === "test",
     }),
 
     new winston.transports.Console({
       level: "info",
-      format: winston.format.combine(winston.format.errors({ stack: true }), winston.format.timestamp(), winston.format.json())
-    })
-  ]
+      format: winston.format.combine(
+        winston.format.errors({ stack: true }),
+        winston.format.timestamp(),
+        winston.format.json(),
+      ),
+    }),
+  ],
 });
 
 export default logger;

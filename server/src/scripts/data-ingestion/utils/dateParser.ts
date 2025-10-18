@@ -10,4 +10,3 @@ export function parseDate(dateString: string): Date | null {
   const parsedDate = moment(dateStr, "YYYY-MM-DD");
   return parsedDate.isValid() ? parsedDate.toDate() : null;
 }
-
