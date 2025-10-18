@@ -1,8 +1,4 @@
-import express, {
-  type NextFunction,
-  type Request,
-  type Response,
-} from "express";
+import express, { type NextFunction, type Request, type Response } from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import { config } from "./config/config.js";
@@ -16,7 +12,7 @@ app.use(
   cors({
     origin: config.frontendDomain || "http://localhost:5173",
     credentials: true,
-  }),
+  })
 );
 
 app.use(express.json());
@@ -30,7 +26,7 @@ app.get("/", (req: Request, res: Response, _next: NextFunction) => {
 });
 
 app.use("/api/abn", abnRouter);
-app.use("/api/users", userRouter);
+app.use("/api/auth", userRouter);
 
 app.use(globalErrorHandler);
 
