@@ -7,7 +7,8 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import { config } from "./config/config.js";
 import globalErrorHandler from "./middlewares/globalErrorHandler.js";
-import abnRoutes from "./routes/abn/abnRoute.js";
+import { abnRouter } from "./routes/abn/abnRoutes.js";
+import { userRouter } from "./routes/user/userRoutes.js";
 
 const app = express();
 
@@ -28,7 +29,8 @@ app.get("/", (req: Request, res: Response, _next: NextFunction) => {
   });
 });
 
-app.use("/api/abn", abnRoutes);
+app.use("/api/abn", abnRouter);
+app.use("/api/users", userRouter);
 
 app.use(globalErrorHandler);
 
