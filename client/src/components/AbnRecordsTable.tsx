@@ -122,7 +122,7 @@ const AbnRecordsTable = ({ filterData }: AbnRecordsTableProps) => {
 
         <div className="border rounded-lg overflow-hidden">
           <div className="relative">
-            <div className="md:hidden text-xs text-muted-foreground text-center py-2 bg-gray-50 border-b">
+            <div className="md:hidden text-xs text-muted-foreground text-center py-2 bg-muted/50 border-b">
               ← Swipe to scroll → | Click headers to sort
             </div>
             <div className="overflow-x-auto scrollbar-thin">
@@ -137,7 +137,7 @@ const AbnRecordsTable = ({ filterData }: AbnRecordsTableProps) => {
                     <TableRow>
                       <TableCell colSpan={7} className="text-center py-10">
                         <div className="flex items-center justify-center">
-                          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+                          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-foreground"></div>
                           <span className="ml-3">Loading records...</span>
                         </div>
                       </TableCell>

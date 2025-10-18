@@ -9,7 +9,7 @@ interface AbnTableRowProps {
 
 export const AbnTableRow = ({ record }: AbnTableRowProps) => {
   return (
-    <TableRow className="hover:bg-gray-50">
+    <TableRow className="hover:bg-accent/50 transition-colors">
       <TableCell className="font-mono text-sm">{record.abn}</TableCell>
       <TableCell>
         <div>
