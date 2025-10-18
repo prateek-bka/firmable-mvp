@@ -8,18 +8,16 @@ import {
 
 const router = Router();
 
-// Get all filter options
+// GET /api/abn/get-all-filter-options?counts=true
 router.get("/get-all-filter-options", getAllFilterOptions);
 
-// Search abn records with filters
-// GET /api/abn/search?name=insurance&status=ACT&state=NSW&page=1&limit=20
+// GET /api/abn/search?q=insurance&status=ACT&state=NSW&sort=updated_desc&page=1&limit=20
 router.get("/search", searchRecords);
 
-// Get all records (paginated), /api/abn?page=1&limit=20
+// GET /api/abn?page=1&limit=20
 router.get("/", getAllRecords);
 
-// Get single record by ABN
-// GET /api/abn/11059968651
+// GET /api/abn/:abn
 router.get("/:abn", getRecordByAbn);
 
 export default router;

@@ -54,10 +54,15 @@ const abnRecordSchema = new Schema<AbnRecordDocument>(
   },
 );
 
-// Indexes
 abnRecordSchema.index({ mainName: "text" });
 abnRecordSchema.index({ status: 1 });
 abnRecordSchema.index({ "businessAddress.state": 1 });
+abnRecordSchema.index({ "businessAddress.postcode": 1 });
+abnRecordSchema.index({ "entityType.code": 1 });
+abnRecordSchema.index({ gstStatus: 1 });
+abnRecordSchema.index({ tradingNames: 1 });
+abnRecordSchema.index({ businessNames: 1 });
+abnRecordSchema.index({ otherNames: 1 });
 
 // Pagination
 abnRecordSchema.plugin(mongoosePaginate);

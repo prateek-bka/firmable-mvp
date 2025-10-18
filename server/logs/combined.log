@@ -33,3 +33,5 @@
 {"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-18T07:34:37.594Z"}
 {"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T07:34:37.600Z"}
 {"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T08:18:46.118Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-18T09:12:32.871Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T09:12:32.878Z"}
