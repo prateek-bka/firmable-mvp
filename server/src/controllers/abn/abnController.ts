@@ -94,9 +94,9 @@ export const getAllFilterOptions = async (
     }
 
     const sortOptions = [
-      { value: "name_asc", label: "Name (A-Z)", default: true },
+      { value: "name_asc", label: "Name (A-Z)" },
       { value: "name_desc", label: "Name (Z-A)" },
-      { value: "abn_asc", label: "ABN (Low to High)" },
+      { value: "abn_asc", label: "ABN (Low to High)", default: true },
       { value: "abn_desc", label: "ABN (High to Low)" },
       { value: "updated_desc", label: "Recently Updated" },
       { value: "updated_asc", label: "Oldest Updated" },
@@ -258,11 +258,11 @@ export const searchRecords = async (
       query.gstStatus = (gst as string).toUpperCase();
     }
 
-    let sortOption: any = { mainName: 1 };
-    if (sort === "name_desc") {
+    let sortOption: any = { abn: 1 };
+    if (sort === "name_asc") {
+      sortOption = { mainName: 1 };
+    } else if (sort === "name_desc") {
       sortOption = { mainName: -1 };
-    } else if (sort === "abn_asc") {
-      sortOption = { abn: 1 };
     } else if (sort === "abn_desc") {
       sortOption = { abn: -1 };
     } else if (sort === "updated_desc") {

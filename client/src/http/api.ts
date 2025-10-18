@@ -8,5 +8,19 @@ const api = axios.create({
 });
 
 export const getAllFilters = async () => {
-  return api.get("/api/abn");
+  return api.get("/api/abn/get-all-filter-options");
+};
+
+
+export const getAllAbnRecords = async (params?: {
+  page?: number;
+  limit?: number;
+  q?: string;
+  status?: string;
+  state?: string;
+  entityType?: string;
+  gst?: string;
+  sort?: string;
+}) => {
+  return api.get("/api/abn/search", { params });
 };
