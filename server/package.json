@@ -6,6 +6,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.ts",
+    "build": "tsc",
     "import:dbdata": "tsx src/scripts/data-ingestion/dataIngestionToDB.ts",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",

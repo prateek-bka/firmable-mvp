@@ -1,13 +1,12 @@
 import mongoose, { model, Schema } from "mongoose";
-import type { AbnRecord } from "../types/abnRecordType.js";
+import type { AbnRecord } from "../../types/abnRecord.types.js";
 import mongoosePaginate from "mongoose-paginate-v2";
-import type { PaginateModel } from "mongoose-paginate-v2"; // plugin
 
 export interface AbnRecordDocument extends mongoose.Document, AbnRecord {
   _id: string;
 }
 
-const abnRecordSchema = new Schema<AbnRecordDocument>(
+const abnRecordSchema = new Schema(
   {
     abn: {
       type: String,
@@ -67,7 +66,7 @@ abnRecordSchema.index({ otherNames: 1 });
 // Pagination
 abnRecordSchema.plugin(mongoosePaginate);
 
-export const abnModel = model<AbnRecordDocument, PaginateModel>(
+export const abnModel = model<AbnRecordDocument>(
   "AbnRecord",
   abnRecordSchema,
 );

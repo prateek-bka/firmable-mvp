@@ -1,0 +1,15 @@
+firmable.prateekcodes.xyz {
+  handle /api/* {
+    reverse_proxy server-service:5000
+  }
+  handle {
+    root * /usr/share/caddy
+    try_files {path} /index.html
+    file_server
+  }
+  header {
+    Strict-Transport-Security "max-age=31536000"
+    X-Content-Type-Options "nosniff"
+    X-Frame-Options "DENY"
+  }
+}

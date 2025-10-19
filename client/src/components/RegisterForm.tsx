@@ -144,7 +144,7 @@ const RegisterForm = () => {
               Already have an account?{" "}
               <Link
                 to="/login"
-                className="font-semibold text-gray-900 hover:underline underline-offset-4"
+                className="font-semibold text-foreground hover:underline underline-offset-4"
               >
                 Login here
               </Link>

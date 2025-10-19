@@ -25,9 +25,10 @@ export async function readXmlFile() {
         highWaterMark: 1024 * 1024, // Read 1MB at a time
       });
 
-      stream.on("data", (chunk: string) => {
-        bytesRead += Buffer.byteLength(chunk, "utf-8");
-        xmlChunks.push(chunk);
+      stream.on("data", (chunk: string | Buffer) => {
+        const chunkStr = typeof chunk === "string" ? chunk : chunk.toString("utf-8");
+        bytesRead += Buffer.byteLength(chunkStr, "utf-8");
+        xmlChunks.push(chunkStr);
 
         // Stop after MAX_FILE_SIZE
         if (bytesRead >= MAX_FILE_SIZE) {

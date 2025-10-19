@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { api } from "@/http/api";
+import { login as loginApi, register as registerApi, logout as logoutApi, checkAuth as checkAuthApi } from "@/http/api";
 
 interface User {
   id: string;
@@ -29,30 +29,26 @@ export const useAuthStore = create<AuthState>((set) => ({
   checkAuth: async () => {
     try {
       // Call a protected endpoint to verify if user is authenticated
-      const response = await api.get("/api/auth/me");
+      const response = await checkAuthApi();
       set({ user: response.data.user, loading: false });
-    } catch (error) {
+    } catch {
       set({ user: null, loading: false });
     }
   },
 
   login: async (email: string, password: string) => {
-    const response = await api.post("/api/auth/login", { email, password });
+    const response = await loginApi(email, password);
     set({ user: response.data.user });
   },
 
   register: async (email: string, password: string, name?: string) => {
-    const response = await api.post("/api/auth/register", {
-      email,
-      password,
-      name,
-    });
+    const response = await registerApi(email, password, name);
     set({ user: response.data.user });
   },
 
   logout: async () => {
     try {
-      await api.post("/api/auth/logout");
+      await logoutApi();
     } finally {
       set({ user: null });
     }

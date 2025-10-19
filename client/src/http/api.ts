@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:5000",
+  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api",
   headers: {
     "Content-Type": "application/json",
   },
@@ -34,6 +34,11 @@ api.interceptors.response.use(
   async (error) => {
     const originalRequest = error.config;
 
+    // Skip refresh logic for auth/me endpoint (it's used to check auth status)
+    if (originalRequest.url?.includes('/auth/me')) {
+      return Promise.reject(error);
+    }
+
     // If error is 401 and we haven't tried to refresh yet
     if (error.response?.status === 401 && !originalRequest._retry) {
       if (isRefreshing) {
@@ -54,13 +59,16 @@ api.interceptors.response.use(
 
       try {
         // Call refresh token endpoint
-        await api.post("/api/auth/refresh");
+        await api.post("/auth/refresh");
         processQueue(null, null);
         return api(originalRequest);
       } catch (refreshError) {
         processQueue(refreshError as Error, null);
-        // Refresh token failed, redirect to login
-        window.location.href = "/login";
+        // Refresh token failed, redirect to login (unless already on auth pages)
+        const currentPath = window.location.pathname;
+        if (!currentPath.includes('/login') && !currentPath.includes('/register')) {
+          window.location.href = "/login";
+        }
         return Promise.reject(refreshError);
       } finally {
         isRefreshing = false;
@@ -71,8 +79,26 @@ api.interceptors.response.use(
   }
 );
 
+// Auth API endpoints
+export const login = async (email: string, password: string) => {
+  return api.post("/auth/login", { email, password });
+};
+
+export const register = async (email: string, password: string, name?: string) => {
+  return api.post("/auth/register", { email, password, name });
+};
+
+export const logout = async () => {
+  return api.post("/auth/logout");
+};
+
+export const checkAuth = async () => {
+  return api.get("/auth/me");
+};
+
+// ABN API endpoints
 export const getAllFilters = async () => {
-  return api.get("/api/abn/get-all-filter-options");
+  return api.get("/abn/get-all-filter-options");
 };
 
 export const getAllAbnRecords = async (params?: {
@@ -85,5 +111,5 @@ export const getAllAbnRecords = async (params?: {
   gst?: string;
   sort?: string;
 }) => {
-  return api.get("/api/abn/search", { params });
+  return api.get("/abn/search", { params });
 };

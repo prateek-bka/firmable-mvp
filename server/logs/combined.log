@@ -35,3 +35,548 @@
 {"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T08:18:46.118Z"}
 {"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-18T09:12:32.871Z"}
 {"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-18T09:12:32.878Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-19T12:52:45.339Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T12:52:45.377Z"}
+{"level":"info","message":"Reading XML file (first 50MB only)...","serviceName":"backend","timestamp":"2025-10-19T12:52:45.378Z"}
+{"level":"info","message":"File: C:\\Users\\PC\\Music\\firmable-mvp\\server\\assets\\public\\20251015_Public01.xml","serviceName":"backend","timestamp":"2025-10-19T12:52:45.379Z"}
+{"level":"info","message":"File read successfully (50MB)","serviceName":"backend","timestamp":"2025-10-19T12:52:45.450Z"}
+{"level":"info","message":"Parsing XML...","serviceName":"backend","timestamp":"2025-10-19T12:52:45.451Z"}
+{"level":"info","message":"XML parsed successfully","serviceName":"backend","timestamp":"2025-10-19T12:52:49.048Z"}
+{"level":"info","message":"Found 82650 records in file","serviceName":"backend","timestamp":"2025-10-19T12:52:49.049Z"}
+{"level":"info","message":"Importing first 10000 records...","serviceName":"backend","timestamp":"2025-10-19T12:52:49.050Z"}
+{"level":"error","message":"Error processing record 500:","serviceName":"backend","timestamp":"2025-10-19T12:52:49.319Z"}
+{"level":"error","message":"Error processing record 501:","serviceName":"backend","timestamp":"2025-10-19T12:52:49.480Z"}
+{"level":"error","message":"Error processing record 502:","serviceName":"backend","timestamp":"2025-10-19T12:52:49.610Z"}
+{"level":"error","message":"Error processing record 503:","serviceName":"backend","timestamp":"2025-10-19T12:52:49.732Z"}
+{"level":"error","message":"Error processing record 504:","serviceName":"backend","timestamp":"2025-10-19T12:52:49.851Z"}
+{"level":"error","message":"Error processing record 505:","serviceName":"backend","timestamp":"2025-10-19T12:52:49.966Z"}
+{"level":"error","message":"Error processing record 506:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.087Z"}
+{"level":"error","message":"Error processing record 507:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.260Z"}
+{"level":"error","message":"Error processing record 508:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.412Z"}
+{"level":"error","message":"Error processing record 509:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.496Z"}
+{"level":"error","message":"Error processing record 510:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.614Z"}
+{"level":"error","message":"Error processing record 511:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.734Z"}
+{"level":"error","message":"Error processing record 512:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.868Z"}
+{"level":"error","message":"Error processing record 513:","serviceName":"backend","timestamp":"2025-10-19T12:52:50.990Z"}
+{"level":"error","message":"Error processing record 514:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.106Z"}
+{"level":"error","message":"Error processing record 515:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.231Z"}
+{"level":"error","message":"Error processing record 516:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.352Z"}
+{"level":"error","message":"Error processing record 517:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.479Z"}
+{"level":"error","message":"Error processing record 518:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.571Z"}
+{"level":"error","message":"Error processing record 519:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.656Z"}
+{"level":"error","message":"Error processing record 520:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.744Z"}
+{"level":"error","message":"Error processing record 521:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.823Z"}
+{"level":"error","message":"Error processing record 522:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.905Z"}
+{"level":"error","message":"Error processing record 523:","serviceName":"backend","timestamp":"2025-10-19T12:52:51.983Z"}
+{"level":"error","message":"Error processing record 524:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.103Z"}
+{"level":"error","message":"Error processing record 525:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.183Z"}
+{"level":"error","message":"Error processing record 526:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.264Z"}
+{"level":"error","message":"Error processing record 527:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.350Z"}
+{"level":"error","message":"Error processing record 528:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.459Z"}
+{"level":"error","message":"Error processing record 529:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.619Z"}
+{"level":"error","message":"Error processing record 530:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.711Z"}
+{"level":"error","message":"Error processing record 531:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.850Z"}
+{"level":"error","message":"Error processing record 532:","serviceName":"backend","timestamp":"2025-10-19T12:52:52.970Z"}
+{"level":"error","message":"Error processing record 533:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.132Z"}
+{"level":"error","message":"Error processing record 534:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.289Z"}
+{"level":"error","message":"Error processing record 535:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.408Z"}
+{"level":"error","message":"Error processing record 536:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.529Z"}
+{"level":"error","message":"Error processing record 537:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.621Z"}
+{"level":"error","message":"Error processing record 538:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.717Z"}
+{"level":"error","message":"Error processing record 539:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.850Z"}
+{"level":"error","message":"Error processing record 540:","serviceName":"backend","timestamp":"2025-10-19T12:52:53.996Z"}
+{"level":"error","message":"Error processing record 541:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.128Z"}
+{"level":"error","message":"Error processing record 542:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.261Z"}
+{"level":"error","message":"Error processing record 543:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.343Z"}
+{"level":"error","message":"Error processing record 544:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.420Z"}
+{"level":"error","message":"Error processing record 545:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.543Z"}
+{"level":"error","message":"Error processing record 546:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.623Z"}
+{"level":"error","message":"Error processing record 547:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.740Z"}
+{"level":"error","message":"Error processing record 548:","serviceName":"backend","timestamp":"2025-10-19T12:52:54.898Z"}
+{"level":"error","message":"Error processing record 549:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.029Z"}
+{"level":"error","message":"Error processing record 550:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.154Z"}
+{"level":"error","message":"Error processing record 551:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.235Z"}
+{"level":"error","message":"Error processing record 552:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.315Z"}
+{"level":"error","message":"Error processing record 553:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.451Z"}
+{"level":"error","message":"Error processing record 554:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.577Z"}
+{"level":"error","message":"Error processing record 555:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.657Z"}
+{"level":"error","message":"Error processing record 556:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.775Z"}
+{"level":"error","message":"Error processing record 557:","serviceName":"backend","timestamp":"2025-10-19T12:52:55.901Z"}
+{"level":"error","message":"Error processing record 558:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.037Z"}
+{"level":"error","message":"Error processing record 559:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.126Z"}
+{"level":"error","message":"Error processing record 560:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.209Z"}
+{"level":"error","message":"Error processing record 561:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.292Z"}
+{"level":"error","message":"Error processing record 562:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.416Z"}
+{"level":"error","message":"Error processing record 563:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.495Z"}
+{"level":"error","message":"Error processing record 564:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.572Z"}
+{"level":"error","message":"Error processing record 565:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.654Z"}
+{"level":"error","message":"Error processing record 566:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.759Z"}
+{"level":"error","message":"Error processing record 567:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.854Z"}
+{"level":"error","message":"Error processing record 568:","serviceName":"backend","timestamp":"2025-10-19T12:52:56.938Z"}
+{"level":"error","message":"Error processing record 569:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.048Z"}
+{"level":"error","message":"Error processing record 570:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.180Z"}
+{"level":"error","message":"Error processing record 571:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.294Z"}
+{"level":"error","message":"Error processing record 572:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.376Z"}
+{"level":"error","message":"Error processing record 573:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.456Z"}
+{"level":"error","message":"Error processing record 574:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.536Z"}
+{"level":"error","message":"Error processing record 575:","serviceName":"backend","timestamp":"2025-10-19T12:52:57.611Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-19T12:53:17.089Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T12:53:17.118Z"}
+{"level":"info","message":"Reading XML file (first 50MB only)...","serviceName":"backend","timestamp":"2025-10-19T12:53:17.119Z"}
+{"level":"info","message":"File: C:\\Users\\PC\\Music\\firmable-mvp\\server\\assets\\public\\20251015_Public01.xml","serviceName":"backend","timestamp":"2025-10-19T12:53:17.119Z"}
+{"level":"info","message":"File read successfully (50MB)","serviceName":"backend","timestamp":"2025-10-19T12:53:17.181Z"}
+{"level":"info","message":"Parsing XML...","serviceName":"backend","timestamp":"2025-10-19T12:53:17.181Z"}
+{"level":"info","message":"XML parsed successfully","serviceName":"backend","timestamp":"2025-10-19T12:53:20.714Z"}
+{"level":"info","message":"Found 82650 records in file","serviceName":"backend","timestamp":"2025-10-19T12:53:20.715Z"}
+{"level":"info","message":"Importing first 10000 records...","serviceName":"backend","timestamp":"2025-10-19T12:53:20.716Z"}
+{"level":"error","message":"Error processing record 500:","serviceName":"backend","timestamp":"2025-10-19T12:53:20.942Z"}
+{"level":"error","message":"Error processing record 501:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.117Z"}
+{"level":"error","message":"Error processing record 502:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.237Z"}
+{"level":"error","message":"Error processing record 503:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.359Z"}
+{"level":"error","message":"Error processing record 504:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.478Z"}
+{"level":"error","message":"Error processing record 505:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.549Z"}
+{"level":"error","message":"Error processing record 506:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.666Z"}
+{"level":"error","message":"Error processing record 507:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.783Z"}
+{"level":"error","message":"Error processing record 508:","serviceName":"backend","timestamp":"2025-10-19T12:53:21.893Z"}
+{"level":"error","message":"Error processing record 509:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.012Z"}
+{"level":"error","message":"Error processing record 510:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.121Z"}
+{"level":"error","message":"Error processing record 511:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.196Z"}
+{"level":"error","message":"Error processing record 512:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.265Z"}
+{"level":"error","message":"Error processing record 513:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.377Z"}
+{"level":"error","message":"Error processing record 514:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.449Z"}
+{"level":"error","message":"Error processing record 515:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.557Z"}
+{"level":"error","message":"Error processing record 516:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.665Z"}
+{"level":"error","message":"Error processing record 517:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.773Z"}
+{"level":"error","message":"Error processing record 518:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.884Z"}
+{"level":"error","message":"Error processing record 519:","serviceName":"backend","timestamp":"2025-10-19T12:53:22.997Z"}
+{"level":"error","message":"Error processing record 520:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.066Z"}
+{"level":"error","message":"Error processing record 521:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.135Z"}
+{"level":"error","message":"Error processing record 522:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.219Z"}
+{"level":"error","message":"Error processing record 523:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.360Z"}
+{"level":"error","message":"Error processing record 524:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.476Z"}
+{"level":"error","message":"Error processing record 525:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.550Z"}
+{"level":"error","message":"Error processing record 526:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.627Z"}
+{"level":"error","message":"Error processing record 527:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.738Z"}
+{"level":"error","message":"Error processing record 528:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.807Z"}
+{"level":"error","message":"Error processing record 529:","serviceName":"backend","timestamp":"2025-10-19T12:53:23.917Z"}
+{"level":"error","message":"Error processing record 530:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.030Z"}
+{"level":"error","message":"Error processing record 531:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.141Z"}
+{"level":"error","message":"Error processing record 532:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.253Z"}
+{"level":"error","message":"Error processing record 533:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.363Z"}
+{"level":"error","message":"Error processing record 534:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.441Z"}
+{"level":"error","message":"Error processing record 535:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.559Z"}
+{"level":"error","message":"Error processing record 536:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.630Z"}
+{"level":"error","message":"Error processing record 537:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.765Z"}
+{"level":"error","message":"Error processing record 538:","serviceName":"backend","timestamp":"2025-10-19T12:53:24.886Z"}
+{"level":"error","message":"Error processing record 539:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.011Z"}
+{"level":"error","message":"Error processing record 540:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.079Z"}
+{"level":"error","message":"Error processing record 541:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.161Z"}
+{"level":"error","message":"Error processing record 542:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.271Z"}
+{"level":"error","message":"Error processing record 543:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.346Z"}
+{"level":"error","message":"Error processing record 544:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.414Z"}
+{"level":"error","message":"Error processing record 545:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.484Z"}
+{"level":"error","message":"Error processing record 546:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.598Z"}
+{"level":"error","message":"Error processing record 547:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.674Z"}
+{"level":"error","message":"Error processing record 548:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.795Z"}
+{"level":"error","message":"Error processing record 549:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.915Z"}
+{"level":"error","message":"Error processing record 550:","serviceName":"backend","timestamp":"2025-10-19T12:53:25.984Z"}
+{"level":"error","message":"Error processing record 551:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.097Z"}
+{"level":"error","message":"Error processing record 552:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.213Z"}
+{"level":"error","message":"Error processing record 553:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.285Z"}
+{"level":"error","message":"Error processing record 554:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.398Z"}
+{"level":"error","message":"Error processing record 555:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.518Z"}
+{"level":"error","message":"Error processing record 556:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.637Z"}
+{"level":"error","message":"Error processing record 557:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.759Z"}
+{"level":"error","message":"Error processing record 558:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.876Z"}
+{"level":"error","message":"Error processing record 559:","serviceName":"backend","timestamp":"2025-10-19T12:53:26.997Z"}
+{"level":"error","message":"Error processing record 560:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.068Z"}
+{"level":"error","message":"Error processing record 561:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.183Z"}
+{"level":"error","message":"Error processing record 562:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.254Z"}
+{"level":"error","message":"Error processing record 563:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.365Z"}
+{"level":"error","message":"Error processing record 564:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.481Z"}
+{"level":"error","message":"Error processing record 565:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.559Z"}
+{"level":"error","message":"Error processing record 566:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.675Z"}
+{"level":"error","message":"Error processing record 567:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.748Z"}
+{"level":"error","message":"Error processing record 568:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.821Z"}
+{"level":"error","message":"Error processing record 569:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.903Z"}
+{"level":"error","message":"Error processing record 570:","serviceName":"backend","timestamp":"2025-10-19T12:53:27.978Z"}
+{"level":"error","message":"Error processing record 571:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.097Z"}
+{"level":"error","message":"Error processing record 572:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.175Z"}
+{"level":"error","message":"Error processing record 573:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.289Z"}
+{"level":"error","message":"Error processing record 574:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.405Z"}
+{"level":"error","message":"Error processing record 575:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.483Z"}
+{"level":"error","message":"Error processing record 576:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.556Z"}
+{"level":"error","message":"Error processing record 577:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.633Z"}
+{"level":"error","message":"Error processing record 578:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.708Z"}
+{"level":"error","message":"Error processing record 579:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.782Z"}
+{"level":"error","message":"Error processing record 580:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.907Z"}
+{"level":"error","message":"Error processing record 581:","serviceName":"backend","timestamp":"2025-10-19T12:53:28.987Z"}
+{"level":"error","message":"Error processing record 582:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.067Z"}
+{"level":"error","message":"Error processing record 583:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.145Z"}
+{"level":"error","message":"Error processing record 584:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.221Z"}
+{"level":"error","message":"Error processing record 585:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.318Z"}
+{"level":"error","message":"Error processing record 586:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.416Z"}
+{"level":"error","message":"Error processing record 587:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.489Z"}
+{"level":"error","message":"Error processing record 588:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.566Z"}
+{"level":"error","message":"Error processing record 589:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.640Z"}
+{"level":"error","message":"Error processing record 590:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.721Z"}
+{"level":"error","message":"Error processing record 591:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.796Z"}
+{"level":"error","message":"Error processing record 592:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.874Z"}
+{"level":"error","message":"Error processing record 593:","serviceName":"backend","timestamp":"2025-10-19T12:53:29.951Z"}
+{"level":"error","message":"Error processing record 594:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.026Z"}
+{"level":"error","message":"Error processing record 595:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.106Z"}
+{"level":"error","message":"Error processing record 596:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.225Z"}
+{"level":"error","message":"Error processing record 597:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.306Z"}
+{"level":"error","message":"Error processing record 598:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.430Z"}
+{"level":"error","message":"Error processing record 599:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.507Z"}
+{"level":"error","message":"Error processing record 600:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.582Z"}
+{"level":"error","message":"Error processing record 601:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.662Z"}
+{"level":"error","message":"Error processing record 602:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.737Z"}
+{"level":"error","message":"Error processing record 603:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.859Z"}
+{"level":"error","message":"Error processing record 604:","serviceName":"backend","timestamp":"2025-10-19T12:53:30.941Z"}
+{"level":"error","message":"Error processing record 605:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.059Z"}
+{"level":"error","message":"Error processing record 606:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.190Z"}
+{"level":"error","message":"Error processing record 607:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.279Z"}
+{"level":"error","message":"Error processing record 608:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.358Z"}
+{"level":"error","message":"Error processing record 609:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.440Z"}
+{"level":"error","message":"Error processing record 610:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.525Z"}
+{"level":"error","message":"Error processing record 611:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.605Z"}
+{"level":"error","message":"Error processing record 612:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.725Z"}
+{"level":"error","message":"Error processing record 613:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.848Z"}
+{"level":"error","message":"Error processing record 614:","serviceName":"backend","timestamp":"2025-10-19T12:53:31.971Z"}
+{"level":"error","message":"Error processing record 615:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.049Z"}
+{"level":"error","message":"Error processing record 616:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.128Z"}
+{"level":"error","message":"Error processing record 617:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.249Z"}
+{"level":"error","message":"Error processing record 618:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.330Z"}
+{"level":"error","message":"Error processing record 619:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.425Z"}
+{"level":"error","message":"Error processing record 620:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.582Z"}
+{"level":"error","message":"Error processing record 621:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.713Z"}
+{"level":"error","message":"Error processing record 622:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.811Z"}
+{"level":"error","message":"Error processing record 623:","serviceName":"backend","timestamp":"2025-10-19T12:53:32.894Z"}
+{"level":"error","message":"Error processing record 624:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.016Z"}
+{"level":"error","message":"Error processing record 625:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.097Z"}
+{"level":"error","message":"Error processing record 626:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.189Z"}
+{"level":"error","message":"Error processing record 627:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.270Z"}
+{"level":"error","message":"Error processing record 628:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.392Z"}
+{"level":"error","message":"Error processing record 629:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.475Z"}
+{"level":"error","message":"Error processing record 630:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.569Z"}
+{"level":"error","message":"Error processing record 631:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.657Z"}
+{"level":"error","message":"Error processing record 632:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.784Z"}
+{"level":"error","message":"Error processing record 633:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.916Z"}
+{"level":"error","message":"Error processing record 634:","serviceName":"backend","timestamp":"2025-10-19T12:53:33.995Z"}
+{"level":"error","message":"Error processing record 635:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.124Z"}
+{"level":"error","message":"Error processing record 636:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.212Z"}
+{"level":"error","message":"Error processing record 637:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.293Z"}
+{"level":"error","message":"Error processing record 638:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.419Z"}
+{"level":"error","message":"Error processing record 639:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.504Z"}
+{"level":"error","message":"Error processing record 640:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.598Z"}
+{"level":"error","message":"Error processing record 641:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.715Z"}
+{"level":"error","message":"Error processing record 642:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.878Z"}
+{"level":"error","message":"Error processing record 643:","serviceName":"backend","timestamp":"2025-10-19T12:53:34.981Z"}
+{"level":"error","message":"Error processing record 644:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.108Z"}
+{"level":"error","message":"Error processing record 645:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.190Z"}
+{"level":"error","message":"Error processing record 646:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.273Z"}
+{"level":"error","message":"Error processing record 647:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.356Z"}
+{"level":"error","message":"Error processing record 648:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.439Z"}
+{"level":"error","message":"Error processing record 649:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.566Z"}
+{"level":"error","message":"Error processing record 650:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.648Z"}
+{"level":"error","message":"Error processing record 651:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.731Z"}
+{"level":"error","message":"Error processing record 652:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.818Z"}
+{"level":"error","message":"Error processing record 653:","serviceName":"backend","timestamp":"2025-10-19T12:53:35.900Z"}
+{"level":"error","message":"Error processing record 654:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.035Z"}
+{"level":"error","message":"Error processing record 655:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.130Z"}
+{"level":"error","message":"Error processing record 656:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.215Z"}
+{"level":"error","message":"Error processing record 657:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.303Z"}
+{"level":"error","message":"Error processing record 658:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.391Z"}
+{"level":"error","message":"Error processing record 659:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.518Z"}
+{"level":"error","message":"Error processing record 660:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.642Z"}
+{"level":"error","message":"Error processing record 661:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.727Z"}
+{"level":"error","message":"Error processing record 662:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.853Z"}
+{"level":"error","message":"Error processing record 663:","serviceName":"backend","timestamp":"2025-10-19T12:53:36.935Z"}
+{"level":"error","message":"Error processing record 664:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.019Z"}
+{"level":"error","message":"Error processing record 665:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.151Z"}
+{"level":"error","message":"Error processing record 666:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.241Z"}
+{"level":"error","message":"Error processing record 667:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.369Z"}
+{"level":"error","message":"Error processing record 668:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.454Z"}
+{"level":"error","message":"Error processing record 669:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.546Z"}
+{"level":"error","message":"Error processing record 670:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.690Z"}
+{"level":"error","message":"Error processing record 671:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.774Z"}
+{"level":"error","message":"Error processing record 672:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.859Z"}
+{"level":"error","message":"Error processing record 673:","serviceName":"backend","timestamp":"2025-10-19T12:53:37.986Z"}
+{"level":"error","message":"Error processing record 674:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.076Z"}
+{"level":"error","message":"Error processing record 675:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.167Z"}
+{"level":"error","message":"Error processing record 676:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.303Z"}
+{"level":"error","message":"Error processing record 677:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.408Z"}
+{"level":"error","message":"Error processing record 678:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.493Z"}
+{"level":"error","message":"Error processing record 679:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.632Z"}
+{"level":"error","message":"Error processing record 680:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.719Z"}
+{"level":"error","message":"Error processing record 681:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.805Z"}
+{"level":"error","message":"Error processing record 682:","serviceName":"backend","timestamp":"2025-10-19T12:53:38.895Z"}
+{"level":"error","message":"Error processing record 683:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.022Z"}
+{"level":"error","message":"Error processing record 684:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.110Z"}
+{"level":"error","message":"Error processing record 685:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.204Z"}
+{"level":"error","message":"Error processing record 686:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.290Z"}
+{"level":"error","message":"Error processing record 687:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.427Z"}
+{"level":"error","message":"Error processing record 688:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.521Z"}
+{"level":"error","message":"Error processing record 689:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.654Z"}
+{"level":"error","message":"Error processing record 690:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.783Z"}
+{"level":"error","message":"Error processing record 691:","serviceName":"backend","timestamp":"2025-10-19T12:53:39.918Z"}
+{"level":"error","message":"Error processing record 692:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.055Z"}
+{"level":"error","message":"Error processing record 693:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.215Z"}
+{"level":"error","message":"Error processing record 694:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.302Z"}
+{"level":"error","message":"Error processing record 695:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.436Z"}
+{"level":"error","message":"Error processing record 696:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.561Z"}
+{"level":"error","message":"Error processing record 697:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.719Z"}
+{"level":"error","message":"Error processing record 698:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.833Z"}
+{"level":"error","message":"Error processing record 699:","serviceName":"backend","timestamp":"2025-10-19T12:53:40.923Z"}
+{"level":"error","message":"Error processing record 700:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.011Z"}
+{"level":"error","message":"Error processing record 701:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.145Z"}
+{"level":"error","message":"Error processing record 702:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.234Z"}
+{"level":"error","message":"Error processing record 703:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.371Z"}
+{"level":"error","message":"Error processing record 704:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.464Z"}
+{"level":"error","message":"Error processing record 705:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.597Z"}
+{"level":"error","message":"Error processing record 706:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.745Z"}
+{"level":"error","message":"Error processing record 707:","serviceName":"backend","timestamp":"2025-10-19T12:53:41.897Z"}
+{"level":"error","message":"Error processing record 708:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.005Z"}
+{"level":"error","message":"Error processing record 709:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.106Z"}
+{"level":"error","message":"Error processing record 710:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.245Z"}
+{"level":"error","message":"Error processing record 711:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.380Z"}
+{"level":"error","message":"Error processing record 712:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.514Z"}
+{"level":"error","message":"Error processing record 713:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.659Z"}
+{"level":"error","message":"Error processing record 714:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.764Z"}
+{"level":"error","message":"Error processing record 715:","serviceName":"backend","timestamp":"2025-10-19T12:53:42.901Z"}
+{"level":"error","message":"Error processing record 716:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.040Z"}
+{"level":"error","message":"Error processing record 717:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.179Z"}
+{"level":"error","message":"Error processing record 718:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.305Z"}
+{"level":"error","message":"Error processing record 719:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.397Z"}
+{"level":"error","message":"Error processing record 720:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.488Z"}
+{"level":"error","message":"Error processing record 721:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.621Z"}
+{"level":"error","message":"Error processing record 722:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.721Z"}
+{"level":"error","message":"Error processing record 723:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.872Z"}
+{"level":"error","message":"Error processing record 724:","serviceName":"backend","timestamp":"2025-10-19T12:53:43.968Z"}
+{"level":"error","message":"Error processing record 725:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.113Z"}
+{"level":"error","message":"Error processing record 726:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.257Z"}
+{"level":"error","message":"Error processing record 727:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.356Z"}
+{"level":"error","message":"Error processing record 728:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.490Z"}
+{"level":"error","message":"Error processing record 729:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.599Z"}
+{"level":"error","message":"Error processing record 730:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.753Z"}
+{"level":"error","message":"Error processing record 731:","serviceName":"backend","timestamp":"2025-10-19T12:53:44.959Z"}
+{"level":"error","message":"Error processing record 732:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.102Z"}
+{"level":"error","message":"Error processing record 733:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.253Z"}
+{"level":"error","message":"Error processing record 734:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.393Z"}
+{"level":"error","message":"Error processing record 735:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.529Z"}
+{"level":"error","message":"Error processing record 736:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.671Z"}
+{"level":"error","message":"Error processing record 737:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.784Z"}
+{"level":"error","message":"Error processing record 738:","serviceName":"backend","timestamp":"2025-10-19T12:53:45.877Z"}
+{"level":"error","message":"Error processing record 739:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.013Z"}
+{"level":"error","message":"Error processing record 740:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.106Z"}
+{"level":"error","message":"Error processing record 741:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.249Z"}
+{"level":"error","message":"Error processing record 742:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.365Z"}
+{"level":"error","message":"Error processing record 743:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.515Z"}
+{"level":"error","message":"Error processing record 744:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.657Z"}
+{"level":"error","message":"Error processing record 745:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.754Z"}
+{"level":"error","message":"Error processing record 746:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.852Z"}
+{"level":"error","message":"Error processing record 747:","serviceName":"backend","timestamp":"2025-10-19T12:53:46.949Z"}
+{"level":"error","message":"Error processing record 748:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.089Z"}
+{"level":"error","message":"Error processing record 749:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.183Z"}
+{"level":"error","message":"Error processing record 750:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.325Z"}
+{"level":"error","message":"Error processing record 751:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.423Z"}
+{"level":"error","message":"Error processing record 752:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.577Z"}
+{"level":"error","message":"Error processing record 753:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.677Z"}
+{"level":"error","message":"Error processing record 754:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.814Z"}
+{"level":"error","message":"Error processing record 755:","serviceName":"backend","timestamp":"2025-10-19T12:53:47.954Z"}
+{"level":"error","message":"Error processing record 756:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.097Z"}
+{"level":"error","message":"Error processing record 757:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.232Z"}
+{"level":"error","message":"Error processing record 758:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.329Z"}
+{"level":"error","message":"Error processing record 759:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.431Z"}
+{"level":"error","message":"Error processing record 760:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.538Z"}
+{"level":"error","message":"Error processing record 761:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.653Z"}
+{"level":"error","message":"Error processing record 762:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.794Z"}
+{"level":"error","message":"Error processing record 763:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.893Z"}
+{"level":"error","message":"Error processing record 764:","serviceName":"backend","timestamp":"2025-10-19T12:53:48.998Z"}
+{"level":"error","message":"Error processing record 765:","serviceName":"backend","timestamp":"2025-10-19T12:53:49.096Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-19T12:55:40.249Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T12:55:40.289Z"}
+{"level":"info","message":"Reading XML file (first 50MB only)...","serviceName":"backend","timestamp":"2025-10-19T12:55:40.290Z"}
+{"level":"info","message":"File: C:\\Users\\PC\\Music\\firmable-mvp\\server\\assets\\public\\20251015_Public01.xml","serviceName":"backend","timestamp":"2025-10-19T12:55:40.291Z"}
+{"level":"info","message":"File read successfully (50MB)","serviceName":"backend","timestamp":"2025-10-19T12:55:40.369Z"}
+{"level":"info","message":"Parsing XML...","serviceName":"backend","timestamp":"2025-10-19T12:55:40.370Z"}
+{"level":"info","message":"XML parsed successfully","serviceName":"backend","timestamp":"2025-10-19T12:55:44.637Z"}
+{"level":"info","message":"Found 82650 records in file","serviceName":"backend","timestamp":"2025-10-19T12:55:44.638Z"}
+{"level":"info","message":"Importing first 10000 records...","serviceName":"backend","timestamp":"2025-10-19T12:55:44.638Z"}
+{"level":"error","message":"Error processing record 500: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:44.998Z"}
+{"level":"error","message":"Error processing record 501: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.225Z"}
+{"level":"error","message":"Error processing record 502: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.361Z"}
+{"level":"error","message":"Error processing record 503: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.488Z"}
+{"level":"error","message":"Error processing record 504: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.608Z"}
+{"level":"error","message":"Error processing record 505: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.728Z"}
+{"level":"error","message":"Error processing record 506: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.805Z"}
+{"level":"error","message":"Error processing record 507: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:45.924Z"}
+{"level":"error","message":"Error processing record 508: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.044Z"}
+{"level":"error","message":"Error processing record 509: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.188Z"}
+{"level":"error","message":"Error processing record 510: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.316Z"}
+{"level":"error","message":"Error processing record 511: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.439Z"}
+{"level":"error","message":"Error processing record 512: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.524Z"}
+{"level":"error","message":"Error processing record 513: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.648Z"}
+{"level":"error","message":"Error processing record 514: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.768Z"}
+{"level":"error","message":"Error processing record 515: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:46.892Z"}
+{"level":"error","message":"Error processing record 516: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.012Z"}
+{"level":"error","message":"Error processing record 517: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.135Z"}
+{"level":"error","message":"Error processing record 518: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.256Z"}
+{"level":"error","message":"Error processing record 519: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.398Z"}
+{"level":"error","message":"Error processing record 520: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.543Z"}
+{"level":"error","message":"Error processing record 521: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.710Z"}
+{"level":"error","message":"Error processing record 522: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.796Z"}
+{"level":"error","message":"Error processing record 523: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:47.924Z"}
+{"level":"error","message":"Error processing record 524: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.043Z"}
+{"level":"error","message":"Error processing record 525: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.168Z"}
+{"level":"error","message":"Error processing record 526: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.291Z"}
+{"level":"error","message":"Error processing record 527: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.416Z"}
+{"level":"error","message":"Error processing record 528: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.545Z"}
+{"level":"error","message":"Error processing record 529: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.680Z"}
+{"level":"error","message":"Error processing record 530: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.765Z"}
+{"level":"error","message":"Error processing record 531: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:48.888Z"}
+{"level":"error","message":"Error processing record 532: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.008Z"}
+{"level":"error","message":"Error processing record 533: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.132Z"}
+{"level":"error","message":"Error processing record 534: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.210Z"}
+{"level":"error","message":"Error processing record 535: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.332Z"}
+{"level":"error","message":"Error processing record 536: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.415Z"}
+{"level":"error","message":"Error processing record 537: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.498Z"}
+{"level":"error","message":"Error processing record 538: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.635Z"}
+{"level":"error","message":"Error processing record 539: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.761Z"}
+{"level":"error","message":"Error processing record 540: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.897Z"}
+{"level":"error","message":"Error processing record 541: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:49.986Z"}
+{"level":"error","message":"Error processing record 542: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.113Z"}
+{"level":"error","message":"Error processing record 543: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.239Z"}
+{"level":"error","message":"Error processing record 544: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.364Z"}
+{"level":"error","message":"Error processing record 545: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.490Z"}
+{"level":"error","message":"Error processing record 546: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.571Z"}
+{"level":"error","message":"Error processing record 547: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.697Z"}
+{"level":"error","message":"Error processing record 548: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.823Z"}
+{"level":"error","message":"Error processing record 549: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:50.953Z"}
+{"level":"error","message":"Error processing record 550: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.059Z"}
+{"level":"error","message":"Error processing record 551: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.156Z"}
+{"level":"error","message":"Error processing record 552: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.287Z"}
+{"level":"error","message":"Error processing record 553: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.378Z"}
+{"level":"error","message":"Error processing record 554: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.459Z"}
+{"level":"error","message":"Error processing record 555: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.553Z"}
+{"level":"error","message":"Error processing record 556: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.635Z"}
+{"level":"error","message":"Error processing record 557: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.766Z"}
+{"level":"error","message":"Error processing record 558: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.850Z"}
+{"level":"error","message":"Error processing record 559: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:51.977Z"}
+{"level":"error","message":"Error processing record 560: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.138Z"}
+{"level":"error","message":"Error processing record 561: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.294Z"}
+{"level":"error","message":"Error processing record 562: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.472Z"}
+{"level":"error","message":"Error processing record 563: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.563Z"}
+{"level":"error","message":"Error processing record 564: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.649Z"}
+{"level":"error","message":"Error processing record 565: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.742Z"}
+{"level":"error","message":"Error processing record 566: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.870Z"}
+{"level":"error","message":"Error processing record 567: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:52.950Z"}
+{"level":"error","message":"Error processing record 568: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:53.035Z"}
+{"level":"error","message":"Error processing record 569: Command insert requires authentication","serviceName":"backend","timestamp":"2025-10-19T12:55:53.183Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-19T13:00:26.545Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T13:00:26.602Z"}
+{"level":"info","message":"Reading XML file (first 50MB only)...","serviceName":"backend","timestamp":"2025-10-19T13:00:26.603Z"}
+{"level":"info","message":"File: C:\\Users\\PC\\Music\\firmable-mvp\\server\\assets\\public\\20251015_Public01.xml","serviceName":"backend","timestamp":"2025-10-19T13:00:26.604Z"}
+{"level":"info","message":"File read successfully (50MB)","serviceName":"backend","timestamp":"2025-10-19T13:00:26.710Z"}
+{"level":"info","message":"Parsing XML...","serviceName":"backend","timestamp":"2025-10-19T13:00:26.711Z"}
+{"level":"info","message":"XML parsed successfully","serviceName":"backend","timestamp":"2025-10-19T13:00:31.206Z"}
+{"level":"info","message":"Found 82650 records in file","serviceName":"backend","timestamp":"2025-10-19T13:00:31.207Z"}
+{"level":"info","message":"Importing first 10000 records...","serviceName":"backend","timestamp":"2025-10-19T13:00:31.207Z"}
+{"level":"info","message":"Imported 500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:31.528Z"}
+{"level":"info","message":"Imported 1000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:31.787Z"}
+{"level":"info","message":"Imported 1500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.011Z"}
+{"level":"info","message":"Imported 2000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.180Z"}
+{"level":"info","message":"Imported 2500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.324Z"}
+{"level":"info","message":"Imported 3000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.471Z"}
+{"level":"info","message":"Imported 3500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.621Z"}
+{"level":"info","message":"Imported 4000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.773Z"}
+{"level":"info","message":"Imported 4500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:32.919Z"}
+{"level":"info","message":"Imported 5000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.038Z"}
+{"level":"info","message":"Imported 5500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.189Z"}
+{"level":"info","message":"Imported 6000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.299Z"}
+{"level":"info","message":"Imported 6500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.390Z"}
+{"level":"info","message":"Imported 7000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.487Z"}
+{"level":"info","message":"Imported 7500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.583Z"}
+{"level":"info","message":"Imported 8000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.719Z"}
+{"level":"info","message":"Imported 8500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.855Z"}
+{"level":"info","message":"Imported 9000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:33.996Z"}
+{"level":"info","message":"Imported 9500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:34.098Z"}
+{"level":"info","message":"Imported 10000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:00:34.256Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-19T13:03:55.312Z"}
+{"level":"error","message":"Failed to connect to database MongoServerError: Authentication failed.","serviceName":"backend","timestamp":"2025-10-19T13:03:55.377Z"}
+{"level":"info","message":"Starting ABN data import...\n","serviceName":"backend","timestamp":"2025-10-19T13:04:12.970Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T13:04:13.012Z"}
+{"level":"info","message":"Reading XML file (first 50MB only)...","serviceName":"backend","timestamp":"2025-10-19T13:04:13.013Z"}
+{"level":"info","message":"File: C:\\Users\\PC\\Music\\firmable-mvp\\server\\assets\\public\\20251015_Public01.xml","serviceName":"backend","timestamp":"2025-10-19T13:04:13.014Z"}
+{"level":"info","message":"File read successfully (50MB)","serviceName":"backend","timestamp":"2025-10-19T13:04:13.098Z"}
+{"level":"info","message":"Parsing XML...","serviceName":"backend","timestamp":"2025-10-19T13:04:13.098Z"}
+{"level":"info","message":"XML parsed successfully","serviceName":"backend","timestamp":"2025-10-19T13:04:18.439Z"}
+{"level":"info","message":"Found 82650 records in file","serviceName":"backend","timestamp":"2025-10-19T13:04:18.440Z"}
+{"level":"info","message":"Importing first 10000 records...","serviceName":"backend","timestamp":"2025-10-19T13:04:18.441Z"}
+{"level":"info","message":"Imported 500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:18.855Z"}
+{"level":"info","message":"Imported 1000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.109Z"}
+{"level":"info","message":"Imported 1500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.269Z"}
+{"level":"info","message":"Imported 2000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.405Z"}
+{"level":"info","message":"Imported 2500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.539Z"}
+{"level":"info","message":"Imported 3000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.662Z"}
+{"level":"info","message":"Imported 3500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.828Z"}
+{"level":"info","message":"Imported 4000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:19.995Z"}
+{"level":"info","message":"Imported 4500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.127Z"}
+{"level":"info","message":"Imported 5000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.305Z"}
+{"level":"info","message":"Imported 5500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.470Z"}
+{"level":"info","message":"Imported 6000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.581Z"}
+{"level":"info","message":"Imported 6500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.687Z"}
+{"level":"info","message":"Imported 7000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.787Z"}
+{"level":"info","message":"Imported 7500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:20.892Z"}
+{"level":"info","message":"Imported 8000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:21.008Z"}
+{"level":"info","message":"Imported 8500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:21.120Z"}
+{"level":"info","message":"Imported 9000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:21.268Z"}
+{"level":"info","message":"Imported 9500/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:21.396Z"}
+{"level":"info","message":"Imported 10000/10000 records","serviceName":"backend","timestamp":"2025-10-19T13:04:21.524Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:12:26.453Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:12:26.460Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:15:39.881Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:15:39.892Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:28:30.083Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:28:30.089Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:28:37.307Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:28:37.313Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:28:48.763Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:28:48.771Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:28:55.880Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:28:55.887Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:29:31.802Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:29:31.808Z"}
+{"errorId":"194e51a4-f0c4-41c2-83be-c32c2fdd0597","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:29:39.188Z","url":"/api/auth/me"}
+{"errorId":"3f76fa83-4c4c-4d76-bd1f-5a74dc3dbbaa","ip":"::1","level":"error","message":"Refresh token not found!","method":"POST","serviceName":"backend","stack":"UnauthorizedError: Refresh token not found!\n    at refreshTokenController (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\controllers\\user\\userController.ts:207:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:29:39.229Z","url":"/api/auth/refresh"}
+{"errorId":"a16a698b-b7b3-456d-be1e-fefa8c7fd123","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:29:52.448Z","url":"/api/auth/me"}
+{"errorId":"579742ec-d6a5-46a0-a03c-81394bb592c4","ip":"::1","level":"error","message":"Refresh token not found!","method":"POST","serviceName":"backend","stack":"UnauthorizedError: Refresh token not found!\n    at refreshTokenController (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\controllers\\user\\userController.ts:207:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:29:52.490Z","url":"/api/auth/refresh"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:30:33.668Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:30:33.674Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:30:39.058Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:30:39.063Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:30:51.528Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:30:51.535Z"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:31:26.256Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:31:26.263Z"}
+{"errorId":"232bd544-d9b5-40f9-b359-1a443141004c","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:31:31.485Z","url":"/api/auth/me"}
+{"errorId":"37eb99de-3bce-4ebb-a289-123abb2ae96b","ip":"::1","level":"error","message":"Refresh token not found!","method":"POST","serviceName":"backend","stack":"UnauthorizedError: Refresh token not found!\n    at refreshTokenController (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\controllers\\user\\userController.ts:207:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:31:31.527Z","url":"/api/auth/refresh"}
+{"errorId":"d20bbdb9-90bd-425e-8c84-4c555daae1a0","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:32:18.872Z","url":"/api/auth/me"}
+{"errorId":"5f8e35ce-8f54-4e0f-af6e-1d8dfb9f77e9","ip":"::1","level":"error","message":"Refresh token not found!","method":"POST","serviceName":"backend","stack":"UnauthorizedError: Refresh token not found!\n    at refreshTokenController (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\controllers\\user\\userController.ts:207:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:32:18.909Z","url":"/api/auth/refresh"}
+{"errorId":"d8a4b69f-f353-4ccd-a1dc-1c227f9f3758","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:32:28.204Z","url":"/api/auth/me"}
+{"errorId":"72ba7f61-b27d-4c0e-b777-ce1c5e0260e0","ip":"::1","level":"error","message":"Refresh token not found!","method":"POST","serviceName":"backend","stack":"UnauthorizedError: Refresh token not found!\n    at refreshTokenController (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\controllers\\user\\userController.ts:207:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:32:28.330Z","url":"/api/auth/refresh"}
+{"errorId":"e4f5b51e-ce5c-4d5a-b90c-4fad43fcf14e","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:28.321Z","url":"/api/auth/me"}
+{"errorId":"8787c2e4-c83d-4fd0-9ea4-b9375557196d","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:28.365Z","url":"/api/auth/me"}
+{"errorId":"dec613f2-04e1-4ccd-89cf-a7b90d7d2849","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:28.375Z","url":"/api/auth/me"}
+{"errorId":"7f2d4bb0-5ec7-493d-bb84-cf87ab0307d4","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:34.949Z","url":"/api/auth/me"}
+{"errorId":"551e34a1-4a3a-45cf-871b-3ec3c0cdbed7","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:34.981Z","url":"/api/auth/me"}
+{"errorId":"295e2460-7995-4a76-8140-30a831a060ef","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:34.988Z","url":"/api/auth/me"}
+{"errorId":"611db500-ed37-436d-9024-11ad9ea2446d","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:58.432Z","url":"/api/auth/me"}
+{"errorId":"4a67d6c6-91d1-46ec-bb47-365247640d63","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:58.461Z","url":"/api/auth/me"}
+{"errorId":"24f80582-27f5-4a5b-9ce7-c0a4f5d70a73","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:33:58.472Z","url":"/api/auth/me"}
+{"errorId":"8e4d4053-c8ef-4d29-9ec4-da0f2f00d2aa","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:34:05.532Z","url":"/api/auth/me"}
+{"errorId":"6d6c844a-bbac-4e9a-b625-ede173a0cf58","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:34:05.540Z","url":"/api/auth/me"}
+{"errorId":"94c62529-f56c-4616-b273-10a379ff41da","ip":"::1","level":"error","message":"Access token not found!","method":"GET","serviceName":"backend","stack":"UnauthorizedError: Access token not found!\n    at authenticate (C:\\Users\\PC\\Music\\firmable-mvp\\server\\src\\middlewares\\authenticate.ts:18:17)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PC\\Music\\firmable-mvp\\server\\node_modules\\router\\index.js:186:3)","statusCode":401,"timestamp":"2025-10-19T17:34:05.555Z","url":"/api/auth/me"}
+{"level":"info","message":"Connected to database successfully!","serviceName":"backend","timestamp":"2025-10-19T17:34:54.725Z"}
+{"level":"info","message":"Listening on port 5000","serviceName":"backend","timestamp":"2025-10-19T17:34:54.736Z"}

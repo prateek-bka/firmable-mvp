@@ -5,6 +5,7 @@ import jwt from "jsonwebtoken";
 import { validationResult } from "express-validator";
 import { userModel, type UserDocument } from "../../models/user/userModel.js";
 import { config } from "../../config/config.js";
+import type { AuthRequest } from "../../middlewares/authenticate.js";
 
 export const registerController = async (
   req: Request,
@@ -166,13 +167,13 @@ export const loginController = async (
       .cookie("accessToken", accessToken, {
         httpOnly: true,
         secure: config.env === "production",
-        sameSite: "strict",
+        sameSite: config.env === "production" ? "strict" : "lax",
         maxAge: 15 * 60 * 1000, // 15 minutes
       })
       .cookie("refreshToken", refreshToken, {
         httpOnly: true,
         secure: config.env === "production",
-        sameSite: "strict",
+        sameSite: config.env === "production" ? "strict" : "lax",
         maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
       })
       .status(201)
@@ -247,7 +248,7 @@ export const refreshTokenController = async (
       .cookie("accessToken", newAccessToken, {
         httpOnly: true,
         secure: config.env === "production",
-        sameSite: "strict",
+        sameSite: config.env === "production" ? "strict" : "lax",
         maxAge: 15 * 60 * 1000,
       })
       .status(200)
@@ -299,6 +300,35 @@ export const logoutController = async (
   } catch (error) {
     return next(
       createHttpError(500, `Error during logout! ${(error as Error).message}`),
+    );
+  }
+};
+
+export const getCurrentUserController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
+  try {
+    const userId = (req as AuthRequest).userId;
+
+    const user: UserDocument | null = await userModel.findById(userId).select("-password -refreshToken");
+
+    if (!user) {
+      return next(createHttpError(404, "User not found!"));
+    }
+
+    res.status(200).json({
+      success: true,
+      user: {
+        id: user._id,
+        email: user.email,
+        role: user.role,
+      },
+    });
+  } catch (error) {
+    return next(
+      createHttpError(500, `Error fetching user! ${(error as Error).message}`),
     );
   }
 };

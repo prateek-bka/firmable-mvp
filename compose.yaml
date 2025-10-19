@@ -1,0 +1,58 @@
+name: firmable-mvp-app
+
+services:
+  client-service:
+    build:
+      context: "./client"
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: /api
+    ports:
+      - "80:80"
+      - "443:443"
+    container_name: firmable-client
+    networks:
+      - "firmable-network"
+    depends_on:
+      - server-service
+    environment:
+      - DOMAIN=${DOMAIN:-localhost}
+
+  server-service:
+    build:
+      context: "./server"
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    container_name: firmable-server
+    networks:
+      - "firmable-network"
+    depends_on:
+      - mongo-service
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - MONGO_CONNECTION_STRING=mongodb://${MONGO_ROOT_USERNAME}:${MONGO_ROOT_PASSWORD}@mongo-service:27017/${MONGO_DATABASE}?authSource=admin
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_REFRESH_SECRET=${JWT_REFRESH_SECRET}
+      - FRONTEND_DOMAIN=${FRONTEND_DOMAIN}
+
+  mongo-service:
+    image: mongo
+    ports:
+      - "27017:27017"
+    container_name: mongo-docker-container
+    networks:
+      - "firmable-network"
+    volumes:
+      - mongoData:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_DATABASE}
+
+networks:
+  firmable-network:
+
+volumes:
+  mongoData:

@@ -111,7 +111,7 @@ export const getAllFilterOptions = async (
         gstStatuses: gstStatuses.filter(Boolean).sort(),
         postcodes: postcodes
           .filter(Boolean)
-          .sort((a: string, b: string) => a.localeCompare(b))
+          .sort((a, b) => (a as string).localeCompare(b as string))
           .slice(0, 100),
         sortOptions,
       },

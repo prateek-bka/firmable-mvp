@@ -1,7 +1,7 @@
-import app from "./src/app";
-import { config } from "./src/config/config";
-import connectDB from "./src/config/db";
-import logger from "./src/config/logger";
+import app from "./src/app.js";
+import { config } from "./src/config/config.js";
+import connectDB from "./src/config/db.js";
+import logger from "./src/config/logger.js";
 
 const startServer = async () => {
   await connectDB();

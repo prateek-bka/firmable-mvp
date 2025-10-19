@@ -1,4 +1,4 @@
-import { abnModel } from "../../../models/abnModel.js";
+import { abnModel } from "../../../models/abn/abnModel.js";
 import logger from "../../../config/logger.js";
 import {
   BATCH_SIZE,
@@ -46,7 +46,7 @@ export async function importRecords(xmlData: any) {
         if (error.code === 11000) {
           skipped++;
         } else {
-          logger.error(`Error processing record ${i + 1}:`, error.message);
+          logger.error(`Error processing record ${i + 1}: ${error.message || error}`);
         }
       }
     }
