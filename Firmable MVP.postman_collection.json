@@ -1,0 +1,1012 @@
+{
+	"info": {
+		"_postman_id": "bdbb2afb-6484-4325-a1c7-b72bda356da1",
+		"name": "Firmable MVP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26299658"
+	},
+	"item": [
+		{
+			"name": "abn-records",
+			"item": [
+				{
+					"name": "GET All ABN Records",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/abn",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"abn"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response All ABN Records",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/abn",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"abn"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "11490"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:54:03 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"2ce2-7V9oAZsnStrRAu93XdTcP238kAY\""
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Records retrieved successfully\",\n    \"data\": {\n        \"businesses\": [\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512be\",\n                \"abn\": \"11060096960\",\n                \"status\": \"ACT\",\n                \"statusFromDate\": \"2000-06-02T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"SYDNEY MRP III PTY. LIMITED\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2116\"\n                },\n                \"gstStatus\": \"ACT\",\n                \"gstStatusFromDate\": \"2000-06-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [\n                    \"SUPPLY CLUSTERS\",\n                    \"SUPPLY CLUSTERS OF AUSTRALIA\"\n                ],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2021-09-09T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512be\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512bb\",\n                \"abn\": \"11060065796\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2009-12-30T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"CLASSIQUE MOTORS PTY. LTD.\",\n                \"businessAddress\": {\n                    \"state\": \"VIC\",\n                    \"postcode\": \"3205\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2009-12-30T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"CLASSIQUE MOTORS PTY LTD\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2011-04-26T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512bb\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512bd\",\n                \"abn\": \"11060086306\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2015-09-29T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"IND\",\n                    \"text\": \"Individual/Sole Trader\"\n                },\n                \"mainName\": \"\",\n                \"gstStatus\": \"NON\",\n                \"gstStatusFromDate\": \"1899-12-31T18:38:50.000Z\",\n                \"tradingNames\": [\n                    \"Elena Grazioso\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2015-09-30T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512bd\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512ba\",\n                \"abn\": \"11060064873\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2008-11-02T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"IND\",\n                    \"text\": \"Individual/Sole Trader\"\n                },\n                \"mainName\": \"\",\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2006-03-31T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"DB PETESEN'S AUTO SERVICES\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2010-02-18T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512ba\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b7\",\n                \"abn\": \"11060044143\",\n                \"status\": \"ACT\",\n                \"statusFromDate\": \"2000-02-01T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"FPT\",\n                    \"text\": \"Family Partnership\"\n                },\n                \"mainName\": \"JM & LG JENOUR\",\n                \"businessAddress\": {\n                    \"state\": \"WA\",\n                    \"postcode\": \"6014\"\n                },\n                \"gstStatus\": \"ACT\",\n                \"gstStatusFromDate\": \"2000-06-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2006-05-24T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b7\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b5\",\n                \"abn\": \"11060030006\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2015-07-07T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"K-C REFRIGERATION PTY. LTD.\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2330\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2015-07-08T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"K C REFRIGERATION PTY LTD\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2016-07-21T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b5\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512bc\",\n                \"abn\": \"11060066542\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2015-04-27T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"GREG ROWE INVESTMENTS PTY. LTD.\",\n                \"businessAddress\": {\n                    \"state\": \"QLD\",\n                    \"postcode\": \"4503\"\n                },\n                \"gstStatus\": \"NON\",\n                \"gstStatusFromDate\": \"1899-12-31T18:38:50.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2015-04-27T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512bc\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b9\",\n                \"abn\": \"11060052324\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2007-09-03T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"COBLYN PTY LTD\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2085\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2003-09-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2007-09-16T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b9\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b8\",\n                \"abn\": \"11060052081\",\n                \"status\": \"ACT\",\n                \"statusFromDate\": \"2019-06-30T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"IND\",\n                    \"text\": \"Individual/Sole Trader\"\n                },\n                \"mainName\": \"\",\n                \"gstStatus\": \"ACT\",\n                \"gstStatusFromDate\": \"2019-06-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2019-07-11T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b8\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b6\",\n                \"abn\": \"11060035378\",\n                \"status\": \"ACT\",\n                \"statusFromDate\": \"2003-06-30T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"LATTER RAIN AND COMPANY PTY. LIMITED\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2452\"\n                },\n                \"gstStatus\": \"ACT\",\n                \"gstStatusFromDate\": \"2003-06-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2015-06-14T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b6\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b4\",\n                \"abn\": \"11060013994\",\n                \"status\": \"ACT\",\n                \"statusFromDate\": \"2022-11-27T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"IND\",\n                    \"text\": \"Individual/Sole Trader\"\n                },\n                \"mainName\": \"\",\n                \"gstStatus\": \"ACT\",\n                \"gstStatusFromDate\": \"2022-11-27T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"K STEWART T/A LIQUUID SURF INDUSTRIES\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2022-11-27T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.485Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.485Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b4\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b0\",\n                \"abn\": \"11059993761\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2006-12-31T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"CIVIL GAS PTY. LTD.\",\n                \"businessAddress\": {\n                    \"state\": \"QLD\",\n                    \"postcode\": \"4740\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2006-12-31T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2006-12-31T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b0\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512af\",\n                \"abn\": \"11059989338\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2015-04-27T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"P & G MASON INVESTMENTS PTY. LTD.\",\n                \"businessAddress\": {\n                    \"state\": \"VIC\",\n                    \"postcode\": \"3752\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2006-12-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [\n                    \"P&G MASON INVESTMENTS PTY LTD\"\n                ],\n                \"recordLastUpdated\": \"2019-03-17T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512af\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512ae\",\n                \"abn\": \"11059987281\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2004-06-29T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"A. MEHL PTY. LTD.\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2450\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2004-06-29T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2015-04-13T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512ae\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512ac\",\n                \"abn\": \"11059984851\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2023-04-13T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"SUNCHASER ENTERPRISES PTY LTD\",\n                \"businessAddress\": {\n                    \"state\": \"WA\",\n                    \"postcode\": \"6083\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2022-12-20T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"COMPLETE UNDERGROUND POWER INSTALLATIONS\"\n                ],\n                \"businessNames\": [\n                    \"COMPLETE UNDERGROUND POWER INSTALLATIONS\"\n                ],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2023-04-13T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512ac\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b1\",\n                \"abn\": \"11059999058\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2017-11-07T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"V G INNOVATIONS PTY LIMITED\",\n                \"businessAddress\": {\n                    \"state\": \"WA\",\n                    \"postcode\": \"6107\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2015-06-16T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"V G FUELSAVERS PTY LIMITED\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2017-11-08T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b1\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512ad\",\n                \"abn\": \"11059985855\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2015-06-29T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"SMF\",\n                    \"text\": \"ATO Regulated Self-Managed Superannuation Fund\"\n                },\n                \"mainName\": \"The trustee for Bandana Rider Fund\",\n                \"businessAddress\": {\n                    \"state\": \"SA\",\n                    \"postcode\": \"5000\"\n                },\n                \"gstStatus\": \"NON\",\n                \"gstStatusFromDate\": \"1899-12-31T18:38:50.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2015-10-21T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512ad\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512ab\",\n                \"abn\": \"11059979569\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2024-03-04T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PTR\",\n                    \"text\": \"Other Partnership\"\n                },\n                \"mainName\": \"K.J ANDERSON & C BARNETT\",\n                \"businessAddress\": {\n                    \"state\": \"VIC\",\n                    \"postcode\": \"3089\"\n                },\n                \"gstStatus\": \"NON\",\n                \"gstStatusFromDate\": \"1899-12-31T18:38:50.000Z\",\n                \"tradingNames\": [\n                    \"Kevin Anderson & Chris Barnett\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [\n                    \"Kevtine Kards\"\n                ],\n                \"recordLastUpdated\": \"2024-03-06T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512ab\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512a9\",\n                \"abn\": \"11059970633\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2017-11-05T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PRV\",\n                    \"text\": \"Australian Private Company\"\n                },\n                \"mainName\": \"JAMES CHRISTIAN PTY. LTD\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2032\"\n                },\n                \"gstStatus\": \"CAN\",\n                \"gstStatusFromDate\": \"2001-06-30T18:30:00.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2018-02-15T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512a9\"\n            },\n            {\n                \"_id\": \"68f4e1d525f9b31f44d512b2\",\n                \"abn\": \"11060010517\",\n                \"status\": \"CAN\",\n                \"statusFromDate\": \"2007-05-01T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"IND\",\n                    \"text\": \"Individual/Sole Trader\"\n                },\n                \"mainName\": \"\",\n                \"gstStatus\": \"NON\",\n                \"gstStatusFromDate\": \"1899-12-31T18:38:50.000Z\",\n                \"tradingNames\": [],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2007-05-01T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:21.484Z\",\n                \"updatedAt\": \"2025-10-19T13:04:21.484Z\",\n                \"id\": \"68f4e1d525f9b31f44d512b2\"\n            }\n        ],\n        \"pagination\": {\n            \"page\": 1,\n            \"limit\": 20,\n            \"total\": 10000,\n            \"pages\": 500,\n            \"hasNext\": true,\n            \"hasPrev\": false\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "GET Single ABN Record",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/abn/11001254558",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"abn",
+								"11001254558"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response Single ABN Record",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/abn/11001254558",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"abn",
+										"11001254558"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "529"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:55:03 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"211-iKQMbQsxwFbU+xlHv44aotM0iHw\""
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"_id\": \"68f4e1d225f9b31f44d4ed30\",\n        \"abn\": \"11001254558\",\n        \"status\": \"CAN\",\n        \"statusFromDate\": \"2008-06-30T18:30:00.000Z\",\n        \"entityType\": {\n            \"code\": \"IND\",\n            \"text\": \"Individual/Sole Trader\"\n        },\n        \"mainName\": \"\",\n        \"gstStatus\": \"NON\",\n        \"gstStatusFromDate\": \"1899-12-31T18:38:50.000Z\",\n        \"tradingNames\": [],\n        \"businessNames\": [],\n        \"otherNames\": [],\n        \"recordLastUpdated\": \"2009-09-08T18:30:00.000Z\",\n        \"replaced\": \"N\",\n        \"__v\": 0,\n        \"createdAt\": \"2025-10-19T13:04:18.770Z\",\n        \"updatedAt\": \"2025-10-19T13:04:18.770Z\"\n    },\n    \"message\": \"Business details retrieved successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Filter ABN Record",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/abn/search?q=insurance&status=ACT&state=NSW&entityType=PUB&sort=updated_desc&mainName=FARMLAND PTY LTD",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"abn",
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "insurance"
+								},
+								{
+									"key": "status",
+									"value": "ACT"
+								},
+								{
+									"key": "state",
+									"value": "NSW"
+								},
+								{
+									"key": "entityType",
+									"value": "PUB"
+								},
+								{
+									"key": "sort",
+									"value": "updated_desc"
+								},
+								{
+									"key": "mainName",
+									"value": "FARMLAND PTY LTD"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response Filter ABN Record",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/abn/search?q=insurance&status=ACT&state=NSW&entityType=PUB&sort=updated_desc&mainName=FARMLAND PTY LTD",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"abn",
+										"search"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "insurance"
+										},
+										{
+											"key": "status",
+											"value": "ACT"
+										},
+										{
+											"key": "state",
+											"value": "NSW"
+										},
+										{
+											"key": "entityType",
+											"value": "PUB"
+										},
+										{
+											"key": "sort",
+											"value": "updated_desc"
+										},
+										{
+											"key": "mainName",
+											"value": "FARMLAND PTY LTD"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "877"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:55:40 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"36d-DY9swO4SAI8owFj74weZxsoZfBM\""
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Found 1 matching record(s)\",\n    \"data\": {\n        \"businesses\": [\n            {\n                \"_id\": \"68f4e1d225f9b31f44d4eb99\",\n                \"abn\": \"11000000948\",\n                \"status\": \"ACT\",\n                \"statusFromDate\": \"1999-10-31T18:30:00.000Z\",\n                \"entityType\": {\n                    \"code\": \"PUB\",\n                    \"text\": \"Australian Public Company\"\n                },\n                \"mainName\": \"QBE INSURANCE (INTERNATIONAL) LTD\",\n                \"businessAddress\": {\n                    \"state\": \"NSW\",\n                    \"postcode\": \"2000\"\n                },\n                \"gstStatus\": \"ACT\",\n                \"gstStatusFromDate\": \"2000-06-30T18:30:00.000Z\",\n                \"tradingNames\": [\n                    \"QBE INSURANCE (INTERNATIONAL) LIMITED\"\n                ],\n                \"businessNames\": [],\n                \"otherNames\": [],\n                \"recordLastUpdated\": \"2018-02-15T18:30:00.000Z\",\n                \"replaced\": \"N\",\n                \"__v\": 0,\n                \"createdAt\": \"2025-10-19T13:04:18.737Z\",\n                \"updatedAt\": \"2025-10-19T13:04:18.737Z\",\n                \"id\": \"68f4e1d225f9b31f44d4eb99\"\n            }\n        ],\n        \"pagination\": {\n            \"page\": 1,\n            \"limit\": 20,\n            \"total\": 1,\n            \"pages\": 1,\n            \"hasNext\": false,\n            \"hasPrev\": false\n        },\n        \"filters\": {\n            \"q\": \"insurance\",\n            \"status\": \"ACT\",\n            \"state\": \"NSW\",\n            \"entityType\": \"PUB\",\n            \"sort\": \"updated_desc\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "GET All Filters",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/abn/get-all-filter-options",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"abn",
+								"get-all-filter-options"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response All Filters",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/abn/get-all-filter-options",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"abn",
+										"get-all-filter-options"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2729"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:56:09 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"aa9-Q3modnEHM5Cr2i7/5pyiI/OACKU\""
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"data\": {\n        \"states\": [\n            \"ACT\",\n            \"NSW\",\n            \"NT\",\n            \"QLD\",\n            \"SA\",\n            \"TAS\",\n            \"VIC\",\n            \"WA\"\n        ],\n        \"statuses\": [\n            \"ACT\",\n            \"CAN\"\n        ],\n        \"entityTypes\": [\n            {\n                \"code\": \"CGE\",\n                \"text\": \"Commonwealth Government Entity\"\n            },\n            {\n                \"code\": \"COP\",\n                \"text\": \"Co-operative\"\n            },\n            {\n                \"code\": \"CUT\",\n                \"text\": \"Corporate Unit Trust\"\n            },\n            {\n                \"code\": \"DES\",\n                \"text\": \"Deceased Estate\"\n            },\n            {\n                \"code\": \"DIT\",\n                \"text\": \"Discretionary Investment Trust\"\n            },\n            {\n                \"code\": \"DST\",\n                \"text\": \"Discretionary Services Management Trust\"\n            },\n            {\n                \"code\": \"DTT\",\n                \"text\": \"Discretionary Trading Trust\"\n            },\n            {\n                \"code\": \"FPT\",\n                \"text\": \"Family Partnership\"\n            },\n            {\n                \"code\": \"FUT\",\n                \"text\": \"Fixed Unit Trust\"\n            },\n            {\n                \"code\": \"FXT\",\n                \"text\": \"Fixed Trust\"\n            },\n            {\n                \"code\": \"HYT\",\n                \"text\": \"Hybrid Trust\"\n            },\n            {\n                \"code\": \"IND\",\n                \"text\": \"Individual/Sole Trader\"\n            },\n            {\n                \"code\": \"LGE\",\n                \"text\": \"Local Government Entity\"\n            },\n            {\n                \"code\": \"LPT\",\n                \"text\": \"Limited Partnership\"\n            },\n            {\n                \"code\": \"NPF\",\n                \"text\": \"APRA Regulated Non-Public Offer Fund\"\n            },\n            {\n                \"code\": \"NRF\",\n                \"text\": \"Non-Regulated Superannuation Fund\"\n            },\n            {\n                \"code\": \"OIE\",\n                \"text\": \"Other Incorporated Entity\"\n            },\n            {\n                \"code\": \"PQT\",\n                \"text\": \"Unlisted Public Unit Trust\"\n            },\n            {\n                \"code\": \"PRV\",\n                \"text\": \"Australian Private Company\"\n            },\n            {\n                \"code\": \"PTR\",\n                \"text\": \"Other Partnership\"\n            },\n            {\n                \"code\": \"PTT\",\n                \"text\": \"Public Trading trust\"\n            },\n            {\n                \"code\": \"PUB\",\n                \"text\": \"Australian Public Company\"\n            },\n            {\n                \"code\": \"PUT\",\n                \"text\": \"Listed Public Unit Trust\"\n            },\n            {\n                \"code\": \"SAF\",\n                \"text\": \"Small APRA Fund\"\n            },\n            {\n                \"code\": \"SGA\",\n                \"text\": \"State Government Statutory Authority\"\n            },\n            {\n                \"code\": \"SGE\",\n                \"text\": \"State Government Entity\"\n            },\n            {\n                \"code\": \"SMF\",\n                \"text\": \"ATO Regulated Self-Managed Superannuation Fund\"\n            },\n            {\n                \"code\": \"STR\",\n                \"text\": \"Strata-title\"\n            },\n            {\n                \"code\": \"TGE\",\n                \"text\": \"Territory Government Entity\"\n            },\n            {\n                \"code\": \"TRT\",\n                \"text\": \"Other trust\"\n            },\n            {\n                \"code\": \"UIE\",\n                \"text\": \"Other Unincorporated Entity\"\n            }\n        ],\n        \"gstStatuses\": [\n            \"ACT\",\n            \"CAN\",\n            \"NON\"\n        ],\n        \"postcodes\": [\n            \"0\",\n            \"1499\",\n            \"1515\",\n            \"1565\",\n            \"1590\",\n            \"1680\",\n            \"1685\",\n            \"1811\",\n            \"2000\",\n            \"2001\",\n            \"2007\",\n            \"2008\",\n            \"2009\",\n            \"2010\",\n            \"2011\",\n            \"2012\",\n            \"2015\",\n            \"2016\",\n            \"2017\",\n            \"2018\",\n            \"2019\",\n            \"2020\",\n            \"2021\",\n            \"2022\",\n            \"2023\",\n            \"2024\",\n            \"2025\",\n            \"2026\",\n            \"2027\",\n            \"2028\",\n            \"2029\",\n            \"2030\",\n            \"2031\",\n            \"2032\",\n            \"2033\",\n            \"2034\",\n            \"2035\",\n            \"2036\",\n            \"2037\",\n            \"2038\",\n            \"2039\",\n            \"2040\",\n            \"2041\",\n            \"2043\",\n            \"2044\",\n            \"2045\",\n            \"2046\",\n            \"2047\",\n            \"2048\",\n            \"2049\",\n            \"2050\",\n            \"2060\",\n            \"2061\",\n            \"2062\",\n            \"2063\",\n            \"2064\",\n            \"2065\",\n            \"2066\",\n            \"2067\",\n            \"2068\",\n            \"2069\",\n            \"2070\",\n            \"2071\",\n            \"2072\",\n            \"2073\",\n            \"2074\",\n            \"2075\",\n            \"2076\",\n            \"2077\",\n            \"2079\",\n            \"2080\",\n            \"2081\",\n            \"2084\",\n            \"2085\",\n            \"2086\",\n            \"2087\",\n            \"2088\",\n            \"2089\",\n            \"2090\",\n            \"2092\",\n            \"2093\",\n            \"2094\",\n            \"2095\",\n            \"2096\",\n            \"2097\",\n            \"2099\",\n            \"2100\",\n            \"2101\",\n            \"2102\",\n            \"2103\",\n            \"2104\",\n            \"2105\",\n            \"2106\",\n            \"2107\",\n            \"2110\",\n            \"2111\",\n            \"2112\",\n            \"2113\",\n            \"2114\",\n            \"2115\"\n        ],\n        \"sortOptions\": [\n            {\n                \"value\": \"name_asc\",\n                \"label\": \"Name (A-Z)\"\n            },\n            {\n                \"value\": \"name_desc\",\n                \"label\": \"Name (Z-A)\"\n            },\n            {\n                \"value\": \"abn_asc\",\n                \"label\": \"ABN (Low to High)\",\n                \"default\": true\n            },\n            {\n                \"value\": \"abn_desc\",\n                \"label\": \"ABN (High to Low)\"\n            },\n            {\n                \"value\": \"updated_desc\",\n                \"label\": \"Recently Updated\"\n            },\n            {\n                \"value\": \"updated_asc\",\n                \"label\": \"Oldest Updated\"\n            }\n        ]\n    },\n    \"message\": \"Filter options retrieved successfully\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test1@mail.com\",\r\n    \"password\": \"testUser2$4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response Register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test1@mail.com\",\r\n    \"password\": \"testUser2$4\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/auth/register",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"auth",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "134"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:52:43 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"86-lybve+5Y0D9iN2DnYhjyPppra5A\""
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"test1@mail.com registered successfully!\",\n    \"user\": {\n        \"id\": \"68f5256bb3999170a802d0c5\",\n        \"email\": \"test1@mail.com\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Refresh Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/refresh",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"refresh"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response Refresh Token",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/auth/refresh",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"auth",
+										"refresh"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "65"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:53:10 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"41-PqKYQRjoYOp9S5Ixp8rdEhndWE0\""
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGY0ZjliODVlZDhhOWUwMTcxNzJmYjAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc2MDg5NjM5MCwiZXhwIjoxNzYwODk3MjkwfQ.PFMEvUeGreWFjtgweY5mt4b6fYwIfHfnauAs2QhWxQg; Max-Age=900; Path=/; Expires=Sun, 19 Oct 2025 18:08:10 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Access token refreshed successfully!\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/auth/login",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "145"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:52:04 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"91-I0DT0sMhzUB9H685jCgqZRk4L/o\""
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGY0ZjliODVlZDhhOWUwMTcxNzJmYjAiLCJyb2xlIjoidXNlciIsImlhdCI6MTc2MDg5NjMyNCwiZXhwIjoxNzYwODk3MjI0fQ.uPux9dz4mounwArcRxqOm2iKkF-QcU2Rg7duGbxl1WE; Max-Age=900; Path=/; Expires=Sun, 19 Oct 2025 18:07:04 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGY0ZjliODVlZDhhOWUwMTcxNzJmYjAiLCJpYXQiOjE3NjA4OTYzMjQsImV4cCI6MTc2MTUwMTEyNH0.Ab9D41NCs0JGBxxKKiiIWUVqefWvDtHzaH84H3V6TWI; Max-Age=604800; Path=/; Expires=Sun, 26 Oct 2025 17:52:04 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"test@mail.com logged in successfully!\",\n    \"user\": {\n        \"id\": \"68f4f9b85ed8a9e017172fb0\",\n        \"email\": \"test@mail.com\",\n        \"role\": \"user\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/auth/logout",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/users/login",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"users",
+										"login"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "http://localhost:5173"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGYzYmRhNGUxNzQ5NmM5ZDFiMGFiMGEiLCJyb2xlIjoidXNlciIsImlhdCI6MTc2MDgwNDM3MSwiZXhwIjoxNzYwODA1MjcxfQ.Hfr20gasylnRkwPWL-guM5dCN8KJ6_HIiCVcIdyeMR4; Max-Age=900; Path=/; Expires=Sat, 18 Oct 2025 16:34:31 GMT; HttpOnly; SameSite=Strict"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OGYzYmRhNGUxNzQ5NmM5ZDFiMGFiMGEiLCJpYXQiOjE3NjA4MDQzNzEsImV4cCI6MTc2MTQwOTE3MX0.ru9z6L8Z6X_TWXPU99ollLuQ3M-Bz37yUjmLsszCFOM; Max-Age=604800; Path=/; Expires=Sat, 25 Oct 2025 16:19:31 GMT; HttpOnly; SameSite=Strict"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "145"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"91-XCsqA3EKNUGXuv99ECJy6Oq56g0\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 18 Oct 2025 16:19:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"test@mail.com logged in successfully!\",\n    \"user\": {\n        \"id\": \"68f3bda4e17496c9d1b0ab0a\",\n        \"email\": \"test@mail.com\",\n        \"role\": \"user\"\n    }\n}"
+						},
+						{
+							"name": "Response Logout",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"password\": \"testUser2$\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/auth/logout",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"auth",
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "https://firmable.prateekcodes.xyz"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000"
+								},
+								{
+									"key": "Content-Length",
+									"value": "53"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 19 Oct 2025 17:53:41 GMT"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"35-vOBgWXGIRpc4Ao1fXkzLcYmgyu0\""
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "session=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "token=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 Caddy"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Logged out successfully!\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
