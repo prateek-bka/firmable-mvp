@@ -232,14 +232,14 @@ Place XML files in `server/assets/public/` directory. The script processes bulk 
 
 ## 📡 API Documentation
 
-**Base URL:** `http://localhost:5000`
+**Base URL:** `https://firmable.prateekcodes.xyz/api`
 
 ### 🔐 Authentication Endpoints
 
 #### Register User
 
 ```http
-POST /user/register
+POST /auth/register
 Content-Type: application/json
 
 {
@@ -251,7 +251,7 @@ Content-Type: application/json
 #### Login
 
 ```http
-POST /user/login
+POST /auth/login
 Content-Type: application/json
 
 {
@@ -263,13 +263,13 @@ Content-Type: application/json
 #### Refresh Token
 
 ```http
-POST /user/refresh
+POST /auth/refresh
 ```
 
 #### Logout
 
 ```http
-POST /user/logout
+POST /auth/logout
 ```
 
 ### 📊 ABN Records Endpoints
